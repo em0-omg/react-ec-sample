@@ -3,3 +3,8 @@ body {
   /* topに20px, bottomに80px */
   padding: 20px 60px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

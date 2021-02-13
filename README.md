@@ -228,3 +228,14 @@
       );
     }
     ```
+
+## Lesson5
+
+- a リンクの装飾なし
+
+  ```css
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ```

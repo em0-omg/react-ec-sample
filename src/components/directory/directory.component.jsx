@@ -17,7 +17,7 @@ class Directory extends React.Component {
     return (
       <div className='directory-menu'>
         {/* propsの内容が多い場合は以下のようにスプレッドを使うと良い */}
-        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+        {this.state.SECTION_DATA.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
