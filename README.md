@@ -30,3 +30,16 @@
     </div>
   );
   ```
+
+## Lesson3
+
+- GoogleFonts
+
+  - アクセスして CDN を取得、index.html に追加
+  - App.css に記載
+
+    ```css
+    body {
+      font-family: 'Open Sans Condensed';
+    }
+    ```
