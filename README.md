@@ -274,3 +274,25 @@
     .
     .
     ```
+
+## Lesson7
+
+- Firebase
+
+  - アイコンを手にする
+
+    ```css
+    .option {
+      padding: 10px 15px;
+      // マウスアイコンが手になる
+      cursor: pointer;
+    }
+    ```
+
+  - App.css でこれを書くとボックスの配置が揃う
+
+    ```css
+    * {
+      box-sizing: border-box;
+    }
+    ```
