@@ -239,3 +239,38 @@
     color: black;
   }
   ```
+
+## Lesson6
+
+- SignInForm
+
+  - onChange の name から動的に値をセット
+
+    ```jsx
+    .
+    .
+    handleChange = (event) => {
+      const { value, name } = event.target;
+
+      this.setState({ [name]: value });
+    };
+    .
+    .
+    <input
+      name='email'
+      type='email'
+      onChange={this.handleChange}
+      value={this.state.email}
+    ></input>
+    <label>Email</label>
+    <input
+      name='password'
+      type='password'
+      value={this.state.password}
+      onChange={this.handleChange}
+      required
+    ></input>
+    <label>Password</label>
+    .
+    .
+    ```
