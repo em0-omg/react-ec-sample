@@ -296,3 +296,8 @@
       box-sizing: border-box;
     }
     ```
+
+## Lesson8
+
+- Redux
+  - `$ yarn add redux redux-logger react-redux`
