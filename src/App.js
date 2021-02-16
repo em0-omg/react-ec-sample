@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import './App.css';
@@ -19,7 +19,6 @@ class App extends React.Component {
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
-        // ユーザデータが作成されたことを確認する
         const userRef = await createUserProfileDocument(userAuth);
 
         userRef.onSnapshot((snapShot) => {
@@ -29,7 +28,8 @@ class App extends React.Component {
           });
         });
       }
-      setCurrentUser({ currentUser: userAuth });
+
+      setCurrentUser(userAuth);
     });
   }
 
