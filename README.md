@@ -301,3 +301,5 @@
 
 - Redux
   - `$ yarn add redux redux-logger react-redux`
+- state の中身が同じだったら再度レンダリングしないようにする
+  - `$ yarn add reselect`
