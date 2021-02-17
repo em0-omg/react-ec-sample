@@ -303,3 +303,5 @@
   - `$ yarn add redux redux-logger react-redux`
 - state の中身が同じだったら再度レンダリングしないようにする
   - `$ yarn add reselect`
+- state の永続化
+  - `$ yarn add redux-persist`
