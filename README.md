@@ -305,3 +305,10 @@
   - `$ yarn add reselect`
 - state の永続化
   - `$ yarn add redux-persist`
+
+## Lesson9
+
+- Stripe
+  - `$ yarn add react-stripe-checkout`
+  - [https://github.com/azmenak/react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
+    - パラメータ等ここで確認できる
