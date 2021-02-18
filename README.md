@@ -312,3 +312,17 @@
   - `$ yarn add react-stripe-checkout`
   - [https://github.com/azmenak/react-stripe-checkout](https://github.com/azmenak/react-stripe-checkout)
     - パラメータ等ここで確認できる
+
+## Lesson10
+
+- Heroku
+  - アカウント作成
+  - heroku cli インストール
+    `$ brew tap heroku/brew && brew install heroku`
+    公式サイトで確認すること
+  - `$ heroku login`
+  - 対象のプロジェクトに移動
+  - `$ heroku create crwn-live-yk --buildpack https://github.com/mars/create-react-app-buildpack.git`
+    - buildpack でここに指定したものは create-react-app で作ったものに使える、npm build を自身で使う必要がなくなる
+    - crwn-live-yk の部分はまだ使われていないものを選ぶ必要がある
+  - `$ git push heroku main`
