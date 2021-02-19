@@ -24,3 +24,6 @@ yarn-error.log*
 .env
 src/firebase/test.js
 build
+
+/client/node_modules
+node_modules
